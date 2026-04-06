@@ -40,15 +40,15 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-24 items-center justify-between">
+        <div className="flex items-center justify-between transition-all duration-300" style={{ height: scrolled ? "80px" : "160px" }}>
           {/* Logo */}
           <Link href="/" className="flex shrink-0 items-center gap-3">
             <Image
               src="/images/logos/Wild Nectar Landscaping Full Logo - Transparent.png"
               alt="Wild Nectar Landscaping"
-              width={200}
-              height={67}
-              className="h-20 w-auto"
+              width={600}
+              height={200}
+              className={`w-auto transition-all duration-300 ${scrolled ? "h-16" : "h-32 md:h-44"}`}
               priority
             />
           </Link>

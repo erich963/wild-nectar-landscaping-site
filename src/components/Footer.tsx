@@ -13,7 +13,7 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-dark text-white/90">
+    <footer className="bg-primary text-white/90">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Brand Column */}
@@ -22,9 +22,9 @@ export default function Footer() {
               <Image
                 src="/images/logos/Wild Nectar Landscaping Full Logo - Transparent.png"
                 alt="Wild Nectar Landscaping"
-                width={200}
-                height={67}
-                className="h-20 w-auto"
+                width={600}
+                height={200}
+                className="h-32 md:h-44 w-auto"
               />
             </Link>
             <p className="text-sm leading-relaxed text-white/70">
