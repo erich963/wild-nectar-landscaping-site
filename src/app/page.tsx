@@ -221,12 +221,12 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-28 bg-primary">
+      <section className="py-20 md:py-28 bg-bark">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Transform Your Landscape?
           </h2>
-          <p className="text-cream/80 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
+          <p className="text-white/70 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
             Let&apos;s work together to create a landscape that&apos;s
             beautiful, resilient, and alive. Book a consultation to get started.
           </p>
