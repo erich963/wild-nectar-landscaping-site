@@ -15,9 +15,10 @@ export default function Footer() {
   return (
     <footer className="bg-primary-dark text-white/90">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
+        {/* Top: Brand row on desktop */}
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-12 lg:gap-20">
           {/* Brand Column */}
-          <div className="lg:col-span-1">
+          <div className="lg:w-[320px] shrink-0">
             <Link href="/" className="inline-block mb-6">
               <Image
                 src="/images/logos/Wild Nectar Landscaping Full Logo - Transparent.png"
@@ -34,6 +35,8 @@ export default function Footer() {
             </p>
           </div>
 
+          {/* Right columns */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-12 lg:gap-20 flex-1">
           {/* Quick Links */}
           <div>
             <h3 className="font-serif text-lg font-semibold text-secondary mb-4">
@@ -160,6 +163,7 @@ export default function Footer() {
             <p className="mt-3 text-xs text-white/50">
               @wildnectarlandscaping
             </p>
+          </div>
           </div>
         </div>
 
