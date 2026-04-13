@@ -221,18 +221,18 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-28 bg-lilac">
+      <section className="py-20 md:py-28 bg-bark">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary-dark mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Transform Your Landscape?
           </h2>
-          <p className="text-primary-dark/70 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
+          <p className="text-white/70 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
             Let&apos;s work together to create a landscape that&apos;s
             beautiful, resilient, and alive. Book a consultation to get started.
           </p>
           <Link
             href="/book-online"
-            className="inline-block bg-primary hover:bg-primary-dark text-white font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
+            className="inline-block bg-secondary hover:bg-secondary/90 text-white font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
           >
             Book a Consultation
           </Link>
