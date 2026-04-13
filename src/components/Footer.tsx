@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const quickLinks = [
   { href: "/", label: "Home" },
@@ -13,14 +14,18 @@ const quickLinks = [
 export default function Footer() {
   return (
     <footer className="bg-primary-dark text-white/90">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 py-16 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-4">
-              <span className="font-serif text-3xl md:text-4xl font-bold text-white leading-tight">
-                Wild Nectar<br />Landscaping
-              </span>
+            <Link href="/" className="inline-block mb-6">
+              <Image
+                src="/images/logos/Wild Nectar Landscaping Full Logo - Transparent.png"
+                alt="Wild Nectar Landscaping"
+                width={600}
+                height={200}
+                className="w-auto h-20 md:h-24 brightness-0 invert"
+              />
             </Link>
             <p className="text-sm leading-relaxed text-white/70">
               Ecological landscaping rooted in native plantings, pollinator
