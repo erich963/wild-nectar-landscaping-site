@@ -25,7 +25,7 @@ export default function Footer() {
                 alt="Wild Nectar Landscaping"
                 width={600}
                 height={200}
-                className="w-auto h-20 md:h-24 brightness-0 invert"
+                className="w-auto h-24 md:h-32 brightness-0 invert"
               />
             </Link>
             <p className="text-sm leading-relaxed text-white/70">
